@@ -1,6 +1,6 @@
 # AI Resume Builder
 
-**Repository**: [GitHub - Ai_Resume_Builder](https://github.com/praveensuthar2105/Ai_Resume_Builder)  
+**Repository**: [GitHub - Ai_Resume_Builder]
 **Technologies**: Java 21, Spring Boot 3.3.5, Spring RestClient, React 18, MySQL 8.0, Google Gemini 2.0 Flash API
 
 ## 📋 Project Description
@@ -168,8 +168,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-**Praveen Suthar**
-- GitHub: [@praveensuthar2105](https://github.com/praveensuthar2105)
+**Pratik Sai**
+- GitHub: [@pratiik1309]([https://github.com/Pratik1309])
 
 ## 🙏 Acknowledgments
 
