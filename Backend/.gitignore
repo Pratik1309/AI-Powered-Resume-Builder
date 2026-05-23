@@ -1,0 +1,22 @@
+# Java
+target/
+!.mvn/wrapper/maven-wrapper.jar
+/log/
+/*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build files
+*.jar
+*.war
+*.zip
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

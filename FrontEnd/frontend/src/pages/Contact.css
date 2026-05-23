@@ -1,0 +1,22 @@
+/* ═══════════════════════════════════════════════════
+   Contact.css — Minimal overrides for Tailwind 
+   brutalist design
+   ═══════════════════════════════════════════════════ */
+
+/* Custom scrolling for textarea */
+.brutal-scrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.brutal-scrollbar::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-left: 1px solid #111111;
+}
+
+.brutal-scrollbar::-webkit-scrollbar-thumb {
+    background: #39ff14;
+}
+
+.brutal-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #2ebd10;
+}

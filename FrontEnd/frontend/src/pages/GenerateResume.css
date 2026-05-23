@@ -1,0 +1,71 @@
+/* ═══════════════════════════════════════════════════
+   GenerateResume.css — Minimal overrides for Tailwind 
+   brutalist design (reusing index.html utilities)
+   ═══════════════════════════════════════════════════ */
+
+/* Custom Animations for loading/toast */
+@keyframes blinkCursor {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink-cursor {
+  animation: blinkCursor 1s step-end infinite;
+}
+
+@keyframes terminalSpinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-slow {
+  animation: terminalSpinner 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.toast-slide-in {
+  animation: slideInRight 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom scrolling for textarea */
+.brutal-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.brutal-scrollbar::-webkit-scrollbar-track {
+  background: var(--brutal-bg, #ffffff);
+  border-left: 2px solid #000000;
+}
+
+.brutal-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--neon-green, #39ff14);
+  border: 2px solid #000000;
+}
+
+.brutal-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}

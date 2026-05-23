@@ -1,0 +1,305 @@
+/* ATS-Optimized Resume Template */
+.modern-template {
+  max-width: 8.5in;
+  min-height: 11in;
+  background: white;
+  padding: 0.5in 0.6in;
+  font-family: 'Times New Roman', 'Georgia', serif;
+  color: #000;
+  line-height: 1.4;
+  font-size: 11pt;
+}
+
+/* Header - Centered */
+.resume-header {
+  text-align: center;
+  margin-bottom: 12px;
+  padding-bottom: 0;
+}
+
+.resume-header .name {
+  font-size: 24pt;
+  font-weight: 700;
+  color: #000;
+  margin: 0 0 6px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.resume-header .contact-line {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  font-size: 10pt;
+  color: #000;
+  flex-wrap: wrap;
+}
+
+.resume-header .contact-line span {
+  display: inline-flex;
+  align-items: center;
+}
+
+.resume-header .contact-line span::after {
+  content: '|';
+  margin-left: 6px;
+  color: #000;
+}
+
+.resume-header .contact-line span:last-child::after {
+  content: '';
+}
+
+.resume-header .contact-line a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.resume-header .contact-line a:hover,
+.resume-header .contact-line a:focus {
+  text-decoration: underline;
+}
+
+.resume-header .contact-line a:focus-visible {
+  outline: 2px solid #0066cc;
+  outline-offset: 2px;
+}
+
+/* Section */
+.resume-section {
+  margin-bottom: 10px;
+  page-break-inside: avoid;
+}
+
+.section-title {
+  font-size: 12pt;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+  margin: 0 0 8px 0;
+}
+
+.section-content {
+  padding-left: 0;
+}
+
+.section-content > p {
+  margin: 0 0 6px 0;
+  text-align: justify;
+  line-height: 1.4;
+  font-size: 10.5pt;
+}
+
+/* Bullet List */
+.bullet-list {
+  margin: 4px 0 0 0;
+  padding-left: 18px;
+  list-style-type: disc;
+}
+
+.bullet-list li {
+  font-size: 10.5pt;
+  line-height: 1.4;
+  margin-bottom: 2px;
+  text-align: justify;
+}
+
+/* Education */
+.education-item {
+  margin-bottom: 8px;
+  page-break-inside: avoid;
+}
+
+.edu-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.edu-left {
+  flex: 1;
+}
+
+.edu-right {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.university {
+  font-size: 11pt;
+  font-weight: 700;
+  color: #000;
+}
+
+.edu-location {
+  font-size: 11pt;
+  font-weight: 700;
+  color: #000;
+}
+
+.degree {
+  font-size: 10.5pt;
+  font-style: italic;
+  color: #000;
+  font-weight: 400;
+}
+
+.gpa {
+  font-size: 10.5pt;
+  font-style: italic;
+  color: #000;
+}
+
+.year {
+  font-size: 10.5pt;
+  color: #000;
+  font-weight: 400;
+}
+
+/* Experience */
+.experience-item {
+  margin-bottom: 10px;
+  page-break-inside: avoid;
+}
+
+.exp-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.exp-left {
+  flex: 1;
+}
+
+.exp-right {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.company {
+  font-size: 11pt;
+  font-weight: 700;
+  color: #000;
+}
+
+.exp-location {
+  font-size: 11pt;
+  font-weight: 700;
+  color: #000;
+}
+
+.job-title {
+  font-size: 10.5pt;
+  font-style: italic;
+  color: #000;
+  font-weight: 400;
+}
+
+.duration {
+  font-size: 10.5pt;
+  color: #000;
+}
+
+/* Projects */
+.project-item {
+  margin-bottom: 8px;
+  page-break-inside: avoid;
+}
+
+.project-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.project-left {
+  flex: 1;
+}
+
+.project-right {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.project-title {
+  font-size: 11pt;
+  font-weight: 700;
+  color: #000;
+}
+
+.project-tech {
+  font-size: 10.5pt;
+  color: #000;
+  font-weight: 400;
+}
+
+.project-right a {
+  font-size: 10pt;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.project-right a:hover,
+.project-right a:focus {
+  text-decoration: underline;
+}
+
+.project-right a:focus-visible {
+  outline: 2px solid #0066cc;
+  outline-offset: 2px;
+}
+
+/* Skills */
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.skill-row {
+  font-size: 10.5pt;
+  line-height: 1.4;
+}
+
+.skill-category {
+  font-weight: 700;
+  color: #000;
+}
+
+.skill-items {
+  font-weight: 400;
+  color: #000;
+  margin-left: 4px;
+}
+
+/* Languages inline */
+.languages-inline {
+  font-size: 10.5pt;
+  margin: 0;
+}
+
+/* Print styles */
+@media print {
+  .modern-template {
+    padding: 0.4in 0.5in;
+    box-shadow: none;
+    font-size: 10pt;
+  }
+
+  .section-title {
+    font-size: 11pt;
+  }
+
+  .resume-header .name {
+    font-size: 20pt;
+  }
+
+  @page {
+    size: letter;
+    margin: 0;
+  }
+}
